@@ -16,6 +16,9 @@
         android:src="@drawable/logo" />
 
     <EditText
+        android:drawableEnd="@drawable/baseline_person"
+        android:layout_margin="20sp"
+        android:padding="10sp"
         android:id="@+id/etdUser"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -24,6 +27,9 @@
         android:inputType="textPersonName" />
 
     <EditText
+        android:drawableEnd="@drawable/baseline_password"
+        android:layout_margin="20sp"
+        android:padding="10sp"
         android:id="@+id/edtSenha"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
