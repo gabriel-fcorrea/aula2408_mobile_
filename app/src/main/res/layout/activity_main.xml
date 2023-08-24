@@ -10,10 +10,36 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Etec Irmã Agostina"
-        android:textSize="30sp"
         android:textAllCaps="true"
-        android:textStyle="bold"
         android:textColor="#f4a100"
-    />
+        android:textSize="30sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Etec Irmã Agostina"
+        android:textAllCaps="true"
+        android:textColor="#0021F4"
+        android:textSize="30sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Etec Irmã Agostina"
+        android:textAllCaps="true"
+        android:textColor="#25F400"
+        android:textSize="30sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Etec Irmã Agostina"
+        android:textAllCaps="true"
+        android:textColor="#F40000"
+        android:textSize="30sp"
+        android:textStyle="bold" />
 
 </RelativeLayout>
