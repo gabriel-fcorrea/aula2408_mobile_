@@ -16,41 +16,43 @@
         android:src="@drawable/logo" />
 
     <EditText
-        android:drawableEnd="@drawable/baseline_person"
-        android:layout_margin="20sp"
-        android:padding="10sp"
         android:id="@+id/etdUser"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_below="@+id/imgLogo"
+        android:layout_margin="20sp"
+        android:drawableLeft="@drawable/baseline_person"
         android:hint="Insira o nome do usuário"
-        android:inputType="textPersonName" />
+        android:inputType="textPersonName"
+        android:padding="10sp"
+        android:textAlignment="center" />
 
     <EditText
-        android:drawableEnd="@drawable/baseline_password"
-        android:layout_margin="20sp"
-        android:padding="10sp"
         android:id="@+id/edtSenha"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_below="@+id/etdUser"
-        android:hint="Insira a senha do usuário"
-        android:inputType="textPassword" />
+        android:layout_margin="20sp"
+        android:drawableLeft="@drawable/baseline_password"
+        android:hint=" Insira a senha do usuário"
+        android:inputType="textPassword"
+        android:padding="10sp"
+        android:textAlignment="center" />
 
     <Button
-        android:layout_margin="20dp"
         android:id="@+id/btnEntrar"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_below="@+id/edtSenha"
+        android:layout_margin="20dp"
         android:text="Entrar" />
 
     <Button
-        android:layout_margin="20dp"
         android:id="@+id/btnSair"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_below="@+id/edtSenha"
+        android:layout_margin="20dp"
         android:layout_toRightOf="@+id/btnEntrar"
         android:text="Sair" />
 
